@@ -99,9 +99,9 @@ This repository tries to provide resources for the entire Cardano developer ecos
 
 ### Cardano Blockchain Explorer
   - https://explorer.cardano.org/en.html 
-Haskell
-  - http://learnyouahaskell.com/chapters
-  - https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm 
+  - https://adastat.net/
+  - https://blockchair.com/cardano
+  - https://cardanoscan.io/
 
 ### NixOS
   - Official Nix Docker image
@@ -123,9 +123,7 @@ https://cardano.org/stake-pool-operation/
 [big pey’s stake pool video tutorials](https://www.youtube.com/playlist?list=PLyThQPJpttTJ4r9wUdlWi1DMty4nAT85d)
 
 
-### Miscellaneous 
-  - Cardano Blockchain Explorer
-    - https://explorer.cardano.org/en.html 
+### Miscellaneous
   - Haskell
     - http://learnyouahaskell.com/chapters
     - https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm 
