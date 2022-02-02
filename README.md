@@ -29,39 +29,39 @@ This repository tries to provide resources for the entire Cardano developer ecos
       - https://daedaluswallet.io/
       -  https://github.com/input-output-hk/daedalus 
 - Yoroi
-  - Description: Yoroi is a light wallet for Cardano. It’s simple, fast and secure. Yoroi is an Emurgo product, engineered by IOHK. And it follows best practices for software in the industry including a comprehensive security audit. Daedalus and Yoroi are complements to what they try to achieve. Yoroi looks to be a day to day wallet for a Cardano user.
+  - Yoroi is a light wallet for Cardano. It’s simple, fast and secure. Yoroi is an Emurgo product, engineered by IOHK. And it follows best practices for software in the industry including a comprehensive security audit. Daedalus and Yoroi are complements to what they try to achieve. Yoroi looks to be a day to day wallet for a Cardano user.
   - Build methods: Browser Extensions, iOS App, Android App
   - Resources:
     - https://yoroi-wallet.com/
     - https://github.com/emurgo/yoroi-ergo-backend 
     - https://github.com/Emurgo/yoroi-frontend 
 - Adalite
-  - Description: An open-source client-side interface for direct interaction with the Cardano blockchain.
+  - An open-source client-side interface for direct interaction with the Cardano blockchain.
   - Resources:
   - https://adalite.io/ 
 
 ### Developer Components
 - Cardano GraphQL
-  - Description: Cross-platform, typed, and queryable API for Cardano. The project contains multiple packages for composing GraphQL services to meet specific application demands, and a docker-compose stack serving the included cardano-graphql-server Dockerfile and the extended hasura Dockerfile. 
+  - Cross-platform, typed, and queryable API for Cardano. The project contains multiple packages for composing GraphQL services to meet specific application demands, and a docker-compose stack serving the included cardano-graphql-server Dockerfile and the extended hasura Dockerfile. 
   - Build methods: Docker, source
   - Resources
     - https://github.com/input-output-hk/cardano-graphql 
     - https://input-output-hk.github.io/cardano-graphql/ 
     - https://github.com/input-output-hk/cardano-graphql/wiki 
 - Cardano Adestria
-  - Description: Adrestia is a collection of products which makes it easier to integrate with Cardano. It comes in different flavours: SDK or high-level APIs. --   - Depending on the use-cases you have and the control that you seek, you may use any of the components below.
+  - Adrestia is a collection of products which makes it easier to integrate with Cardano. It comes in different flavours: SDK or high-level APIs. --   - Depending on the use-cases you have and the control that you seek, you may use any of the components below.
   - Build methods: Docker, binaries, source
   - Resources
   - https://input-output-hk.github.io/adrestia/ 
   - https://input-output-hk.github.io/cardano-rest/submit-api/ 
   - https://input-output-hk.github.io/cardano-rest/explorer-api/ 
 - Low-level SDK
-  - cardano-addresses: Address generation, derivation & mnemonic manipulation.
-  - cardano-coin-selection: Algorithms for coin selection and fee balancing.
-  - cardano-transactions: Utilities for constructing and signing transactions.
-  - bech32: Haskell implementation of the Bech32 address format (BIP 0173).
+  - [cardano-addresses](https://github.com/input-output-hk/cardano-addresses): Address generation, derivation & mnemonic manipulation.
+  - [cardano-coin-selection](https://github.com/input-output-hk/cardano-coin-selection): Algorithms for coin selection and fee balancing.
+  - [cardano-transactions](https://github.com/input-output-hk/cardano-transactions): Utilities for constructing and signing transactions.
+  - [bech32](https://github.com/input-output-hk/bech32): Haskell implementation of the Bech32 address format (BIP 0173).
 - Cardano-rosetta 
-  - Description: Rosetta is an open standard designed to simplify blockchain deployment and interaction.
+  - Rosetta is an open standard designed to simplify blockchain deployment and interaction.
   - Build methods: Docker, source
 - Resources
   - Construction API Documentation Users of the Cardano Rosetta Construction API 
@@ -69,7 +69,7 @@ This repository tries to provide resources for the entire Cardano developer ecos
 - Cardano Rosetta Docs Cardano Rosetta specific documentation 
 - Developer Core or external developers of cardano-rosetta-server 
 - Cardano db-sync
-  - Description: The purpose of Cardano DB Sync is to follow the Cardano chain and take information from the chain and an internally maintained copy of ledger state. Data is then extracted from the chain and inserted into a PostgreSQL database. SQL queries can then be written directly against the database schema or as queries embedded in any language with libraries for interacting with an SQL database.
+  - The purpose of Cardano DB Sync is to follow the Cardano chain and take information from the chain and an internally maintained copy of ledger state. Data is then extracted from the chain and inserted into a PostgreSQL database. SQL queries can then be written directly against the database schema or as queries embedded in any language with libraries for interacting with an SQL database.
   - Build methods: Docker, binaries, source
   - Resources
   - https://github.com/input-output-hk/cardano-db-sync 
@@ -88,15 +88,14 @@ This repository tries to provide resources for the entire Cardano developer ecos
   - [Byron ledger specification: the formal mathematical specification of the Byron era ledger rules](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/byronLedgerSpec/latest/download-by-type/doc-pdf/ledger-spec).
   - [Byron binary format specification (CDDL): the binary formats for the Byron ledger using CBOR CDDL schema notation](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/blocksCDDLSpec/latest/download-by-type/doc-pdf/binary).
   - [Explanation of the small-step-semantics framework: a guide to the notation and style used by our ledger rules](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/semanticsSpec/latest/download-by-type/doc-pdf/small-step-semantics).
-- Resources
-  - https://docs.cardano.org/en/latest/explore-cardano/cardano-architecture-overview/index.html 
-  - https://github.com/input-output-hk/cardano-ledger-specs#cardano-ledger 
-- Cardano SMASH
-  - Description: The purpose of SMASH is to aggregate common metadata about stakepools that are registered on the Cardano blockchain, including the name of the stakepool, its “ticker” name etc. This metadata can be curated and provided as a service to delegators, stake pool operators, exchanges etc., enabling independent validation and/or disambiguation of stakepool “ticker” names, for example.
-- Resources
-  - Cardano SMASH Docs
-- Cardano RTView
-  - Description: RTView enables developers, testers, and general users who are running nodes that are connected to the real cluster to see what is going on and how the nodes are performing. It gives visibility on: how much memory and CPU is being used, the state of the blockchain, how many blocks have been forged by a particular node, how many transactions have been processed, and so on.
+  - Resources
+    - https://github.com/input-output-hk/cardano-ledger-specs#cardano-ledger 
+- (Cardano SMASH)[https://docs.cardano.org/projects/smash/en/latest/]
+  - The purpose of SMASH is to aggregate common metadata about stakepools that are registered on the Cardano blockchain, including the name of the stakepool, its “ticker” name etc. This metadata can be curated and provided as a service to delegators, stake pool operators, exchanges etc., enabling independent validation and/or disambiguation of stakepool “ticker” names, for example.
+  - Resources
+    - (Cardano SMASH Docs)[https://docs.cardano.org/projects/smash/en/latest/]
+- (Cardano RTView)[https://docs.cardano.org/en/latest/rt-view/rt-view.html]
+  - RTView enables developers, testers, and general users who are running nodes that are connected to the real cluster to see what is going on and how the nodes are performing. It gives visibility on: how much memory and CPU is being used, the state of the blockchain, how many blocks have been forged by a particular node, how many transactions have been processed, and so on.
 
 ### Cardano Blockchain Explorer
   - https://explorer.cardano.org/en.html 
@@ -113,7 +112,7 @@ Haskell
 - General Cardano Formal Specifications
 
 ### Stakepools
-- Description: There are two ways an ada holder can earn rewards: by delegating their stake to a stake pool run by someone else, or by running their own stake pool. The amount of stake delegated to a given stake pool is the primary way the Ouroboros protocol chooses who should add the next block to the blockchain, and receive a monetary reward for doing so. The more stake is delegated to a stake pool (up to a certain point), the more likely it is to make the next block – and the rewards that it earns are shared between everyone who delegated their stake to that stake pool.
+- There are two ways an ada holder can earn rewards: by delegating their stake to a stake pool run by someone else, or by running their own stake pool. The amount of stake delegated to a given stake pool is the primary way the Ouroboros protocol chooses who should add the next block to the blockchain, and receive a monetary reward for doing so. The more stake is delegated to a stake pool (up to a certain point), the more likely it is to make the next block – and the rewards that it earns are shared between everyone who delegated their stake to that stake pool.
 - Resources:
 https://cardano-foundation.gitbook.io/stake-pool-course/
 https://developers.cardano.org/en/testnets/cardano/get-started/creating-a-stake-pool/ 
