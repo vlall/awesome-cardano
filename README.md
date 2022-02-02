@@ -125,8 +125,8 @@ https://cardano.org/stake-pool-operation/
   - Cardano Blockchain Explorer
     - https://explorer.cardano.org/en.html 
   - Haskell
-      - http://learnyouahaskell.com/chapters
-      - https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm 
+    - http://learnyouahaskell.com/chapters
+    - https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm 
   - NixOS
     - [Official Nix Docker image](https://hub.docker.com/r/nixos/nix/)
       - docker pull nixos/nix
