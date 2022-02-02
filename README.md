@@ -12,12 +12,15 @@ This repository tries to provide resources for the entire Cardano developer ecos
     - https://plutus-apps.readthedocs.io/en/latest/plutus/explanations/pab.html
     - https://plutus.readthedocs.io/en/latest/plutus/explanations/pab.html
     - https://plutus-pioneer-program.readthedocs.io/en/latest/
+    - https://plutonomicon.github.io/plutonomicon/DistributedMap
   - Repositories
     - https://github.com/input-output-hk/plutus-apps
     - https://github.com/input-output-hk/plutus
     - https://github.com/input-output-hk/plutus-pioneer-program
     - https://github.com/input-output-hk/Alonzo-testnet
+    - https://github.com/Plutonomicon/plutonomicon
     - https://github.com/input-output-hk?q=plutus&type=all&language=&sort=
+
 
 ### Wallets
 - Daedalus
