@@ -20,31 +20,31 @@ This repository tries to provide resources for the entire Cardano developer ecos
     - https://github.com/input-output-hk?q=plutus&type=all&language=&sort=
 
 ### Wallets
-Daedalus
-- Description: Daedalus is a full node wallet. This means that unlike light wallets (e.g.Yoroi, Adalite etc.) Daedalus downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. That way you get maximum security and completely trustless operation, without centrally hosted 3rd party servers.
-- Resources:
-  - https://daedaluswallet.io/
-  -  https://github.com/input-output-hk/daedalus 
+- Daedalus
+  - Description: Daedalus is a full node wallet. This means that unlike light wallets (e.g.Yoroi, Adalite etc.) Daedalus downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. That way you get maximum security and completely trustless operation, without centrally hosted 3rd party servers.
+  - Resources:
+      - https://daedaluswallet.io/
+      -  https://github.com/input-output-hk/daedalus 
 - Yoroi
-- Description: Yoroi is a light wallet for Cardano. It’s simple, fast and secure. Yoroi is an Emurgo product, engineered by IOHK. And it follows best practices for software in the industry including a comprehensive security audit. Daedalus and Yoroi are complements to what they try to achieve. Yoroi looks to be a day to day wallet for a Cardano user.
-- Build methods: Browser Extensions, iOS App, Android App
-- Resources:
-  - https://yoroi-wallet.com/
-  - https://github.com/emurgo/yoroi-ergo-backend 
-  - https://github.com/Emurgo/yoroi-frontend 
+  - Description: Yoroi is a light wallet for Cardano. It’s simple, fast and secure. Yoroi is an Emurgo product, engineered by IOHK. And it follows best practices for software in the industry including a comprehensive security audit. Daedalus and Yoroi are complements to what they try to achieve. Yoroi looks to be a day to day wallet for a Cardano user.
+  - Build methods: Browser Extensions, iOS App, Android App
+  - Resources:
+    - https://yoroi-wallet.com/
+    - https://github.com/emurgo/yoroi-ergo-backend 
+    - https://github.com/Emurgo/yoroi-frontend 
 - Adalite
-- Description: An open-source client-side interface for direct interaction with the Cardano blockchain.
-- Resources:
-- https://adalite.io/ 
-### Developer Components
+  - Description: An open-source client-side interface for direct interaction with the Cardano blockchain.
+  - Resources:
+  - https://adalite.io/ 
 
+### Developer Components
 - Cardano GraphQL
   - Description: Cross-platform, typed, and queryable API for Cardano. The project contains multiple packages for composing GraphQL services to meet specific application demands, and a docker-compose stack serving the included cardano-graphql-server Dockerfile and the extended hasura Dockerfile. 
   - Build methods: Docker, source
-- Resources
-  - https://github.com/input-output-hk/cardano-graphql 
-  - https://input-output-hk.github.io/cardano-graphql/ 
-  - https://github.com/input-output-hk/cardano-graphql/wiki 
+  - Resources
+    - https://github.com/input-output-hk/cardano-graphql 
+    - https://input-output-hk.github.io/cardano-graphql/ 
+    - https://github.com/input-output-hk/cardano-graphql/wiki 
 - Cardano Adestria
   - Description: Adrestia is a collection of products which makes it easier to integrate with Cardano. It comes in different flavours: SDK or high-level APIs. --   - Depending on the use-cases you have and the control that you seek, you may use any of the components below.
   - Build methods: Docker, binaries, source
@@ -72,7 +72,7 @@ Daedalus
   - https://github.com/input-output-hk/cardano-db-sync 
 - Cardano Ledger Specs
   - Description: This repository contains the formal specifications, executable models, and implementations of the Cardano Ledger.
-- Components
+- Specification Papers
   - Plutus integration formal specification: the formal mathematical specification of the addition of Plutus scripts to the ledger rules, following on from the multi-asset formal specification.
   - Multi-asset formal specification: the formal mathematical specification of the addition of multi-assets to the Shelley era ledger rules.
   - Multi-asset binary format specification (CDDL): the binary formats for the ledger with multi-assets using CBOR CDDL schema notation.
@@ -90,10 +90,43 @@ Daedalus
   - https://github.com/input-output-hk/cardano-ledger-specs#cardano-ledger 
 - Cardano SMASH
   - Description: The purpose of SMASH is to aggregate common metadata about stakepools that are registered on the Cardano blockchain, including the name of the stakepool, its “ticker” name etc. This metadata can be curated and provided as a service to delegators, stake pool operators, exchanges etc., enabling independent validation and/or disambiguation of stakepool “ticker” names, for example.
-Resources
+- Resources
   - Cardano SMASH Docs
 - Cardano RTView
   - Description: RTView enables developers, testers, and general users who are running nodes that are connected to the real cluster to see what is going on and how the nodes are performing. It gives visibility on: how much memory and CPU is being used, the state of the blockchain, how many blocks have been forged by a particular node, how many transactions have been processed, and so on.
 
 
 ### Ecosystem Overview
+
+
+
+### Cardano Blockchain Explorer
+  - https://explorer.cardano.org/en.html 
+Haskell
+  - http://learnyouahaskell.com/chapters
+  - https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm 
+
+### NixOS
+  - Official Nix Docker image
+  - docker pull nixos/nix
+
+### IOHK Research Papers
+- Delegation and Incentive Specifications
+- General Cardano Formal Specifications
+
+### Proof of Stake
+- Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol
+Native Assets
+- UTXO with Multi-Asset Support
+Shelley
+Introduction to the design of the Data Diffusion and Networking for Cardano Shelley
+The Shelley Networking Protocol 
+Byron
+Byron Ledger Specification
+Plutus papers
+Alonzo Formal Specs
+Unraveling Recursion (published version)
+System F in Agda (published version)
+The Extended UTXO Model (in press)
+UTXOma: UTXO with Multi-Asset Support (in press)
+Native Custom Tokens in the Extended UTXO Model (in press)
