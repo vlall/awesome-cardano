@@ -110,13 +110,13 @@ This is meant to provide resources for the entire Cardano developer ecosystem. T
 ### Stakepools
 - There are two ways an ada holder can earn rewards: by delegating their stake to a stake pool run by someone else, or by running their own stake pool. The amount of stake delegated to a given stake pool is the primary way the Ouroboros protocol chooses who should add the next block to the blockchain, and receive a monetary reward for doing so. The more stake is delegated to a stake pool (up to a certain point), the more likely it is to make the next block – and the rewards that it earns are shared between everyone who delegated their stake to that stake pool.
 - Resources:
-https://cardano-foundation.gitbook.io/stake-pool-course/
-https://developers.cardano.org/en/testnets/cardano/get-started/creating-a-stake-pool/ 
-https://cardano.org/stake-pool-operation/ 
-[CoinCashew Guide: How to build a Cardano Stake Pool](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node)
-[video guide: How to create a Cardano stake pool](https://www.youtube.com/playlist?list=PLyThQPJpttTJ4r9wUdlWi1DMty4nAT85d)
-[building a Cardano stake pool using CNTools](https://www.youtube.com/watch?v=UN4rSRr7LDk&feature=youtu.be)
-[big pey’s stake pool video tutorials](https://www.youtube.com/playlist?list=PLyThQPJpttTJ4r9wUdlWi1DMty4nAT85d)
+  - https://cardano-foundation.gitbook.io/stake-pool-course/
+  - https://developers.cardano.org/en/testnets/cardano/get-started/creating-a-stake-pool/ 
+  - https://cardano.org/stake-pool-operation/ 
+  - [CoinCashew Guide: How to build a Cardano Stake Pool](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node)
+  - [video guide: How to create a Cardano stake pool](https://www.youtube.com/playlist?list=PLyThQPJpttTJ4r9wUdlWi1DMty4nAT85d)
+  - [building a Cardano stake pool using CNTools](https://www.youtube.com/watch?v=UN4rSRr7LDk&feature=youtu.be)
+  - [big pey’s stake pool video tutorials](https://www.youtube.com/playlist?list=PLyThQPJpttTJ4r9wUdlWi1DMty4nAT85d)
 
 
 ### Miscellaneous
