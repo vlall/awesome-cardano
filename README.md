@@ -1,10 +1,18 @@
 # awesome-cardano
-This repository tries to provide resources for the entire Cardano developer ecosystem. There are a number of disparate resources, so having a centralized location to link to both official and community documentation is helpful.
 
-[Cardano Foundation Official GitHub](https://github.com/cardano-foundation)
+<img src="https://10iyd315iql1cp7mg1jed84g-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/cardano-logo.png" alt="Cardano Image" style="height: 70px; width:250;"/>
 
-[IOHK Official GitHub](https://github.com/input-output-hk/)
+This is meant to provide resources for the entire Cardano developer ecosystem. There are a number of disparate resources, so having a centralized location to link to both official and community documentation is helpful.
 
+### Contents
+  - [Organization Sites](#organization-sites)
+  - [Smart Contracts](#smart-contracts)
+  - [Wallets](#wallets)
+  - [Developer Components](#developer-components)
+  
+### Organization Sites
+  - [Cardano Foundation Official GitHub](https://github.com/cardano-foundation)
+  - [IOHK Official GitHub](https://github.com/input-output-hk/)
 
 ### Smart Contracts
 - Plutus 
@@ -23,36 +31,31 @@ This repository tries to provide resources for the entire Cardano developer ecos
 
 
 ### Wallets
-- Daedalus
-  - Description: Daedalus is a full node wallet. This means that unlike light wallets (e.g.Yoroi, Adalite etc.) Daedalus downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. That way you get maximum security and completely trustless operation, without centrally hosted 3rd party servers.
+- [Daedalus](https://daedaluswallet.io/)
+  - Daedalus is a full node wallet. This means that unlike light wallets (e.g.Yoroi, Adalite etc.) Daedalus downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. That way you get maximum security and completely trustless operation, without centrally hosted 3rd party servers.
   - Resources:
-      - https://daedaluswallet.io/
-      -  https://github.com/input-output-hk/daedalus 
-- Yoroi
+      - https://github.com/input-output-hk/daedalus 
+- [Yoroi](https://yoroi-wallet.com/)
   - Yoroi is a light wallet for Cardano. It’s simple, fast and secure. Yoroi is an Emurgo product, engineered by IOHK. And it follows best practices for software in the industry including a comprehensive security audit. Daedalus and Yoroi are complements to what they try to achieve. Yoroi looks to be a day to day wallet for a Cardano user.
   - Build methods: Browser Extensions, iOS App, Android App
   - Resources:
-    - https://yoroi-wallet.com/
     - https://github.com/emurgo/yoroi-ergo-backend 
     - https://github.com/Emurgo/yoroi-frontend 
-- Adalite
+-  [Adalite](https://adalite.io/)
   - An open-source client-side interface for direct interaction with the Cardano blockchain.
-  - Resources:
-  - https://adalite.io/ 
 
 ### Developer Components
-- Cardano GraphQL
+- [Cardano GraphQL](https://github.com/input-output-hk/cardano-graphql )
   - Cross-platform, typed, and queryable API for Cardano. The project contains multiple packages for composing GraphQL services to meet specific application demands, and a docker-compose stack serving the included cardano-graphql-server Dockerfile and the extended hasura Dockerfile. 
   - Build methods: Docker, source
   - Resources
-    - https://github.com/input-output-hk/cardano-graphql 
+    - 
     - https://input-output-hk.github.io/cardano-graphql/ 
     - https://github.com/input-output-hk/cardano-graphql/wiki 
-- Cardano Adestria
+- [Cardano Adestria](https://github.com/input-output-hk/cardano-graphql)
   - Adrestia is a collection of products which makes it easier to integrate with Cardano. It comes in different flavours: SDK or high-level APIs. --   - Depending on the use-cases you have and the control that you seek, you may use any of the components below.
   - Build methods: Docker, binaries, source
   - Resources
-  - https://input-output-hk.github.io/adrestia/ 
   - https://input-output-hk.github.io/cardano-rest/submit-api/ 
   - https://input-output-hk.github.io/cardano-rest/explorer-api/ 
 - Low-level SDK
@@ -60,21 +63,18 @@ This repository tries to provide resources for the entire Cardano developer ecos
   - [cardano-coin-selection](https://github.com/input-output-hk/cardano-coin-selection): Algorithms for coin selection and fee balancing.
   - [cardano-transactions](https://github.com/input-output-hk/cardano-transactions): Utilities for constructing and signing transactions.
   - [bech32](https://github.com/input-output-hk/bech32): Haskell implementation of the Bech32 address format (BIP 0173).
-- Cardano-rosetta 
+- [Cardano-rosetta](https://github.com/input-output-hk/cardano-rosetta)
   - Rosetta is an open standard designed to simplify blockchain deployment and interaction.
   - Build methods: Docker, source
-- Resources
-  - Construction API Documentation Users of the Cardano Rosetta Construction API 
-  - Data API Documentation Users of the Cardano Rosetta Data API 
-- Cardano Rosetta Docs Cardano Rosetta specific documentation 
-- Developer Core or external developers of cardano-rosetta-server 
-- Cardano db-sync
+  - [Construction API Documentation](https://www.rosetta-api.org/docs/construction_api_introduction.html)
+  - [Data API Documentation](https://www.rosetta-api.org/docs/data_api_introduction.html)
+  - [Cardano Rosetta Docs](https://github.com/input-output-hk/cardano-rosetta/blob/master/docs)
+  - [Developer Docs](https://github.com/input-output-hk/cardano-rosetta/blob/master/docs)
+- [Cardano db-sync](https://github.com/input-output-hk/cardano-db-sync )
   - The purpose of Cardano DB Sync is to follow the Cardano chain and take information from the chain and an internally maintained copy of ledger state. Data is then extracted from the chain and inserted into a PostgreSQL database. SQL queries can then be written directly against the database schema or as queries embedded in any language with libraries for interacting with an SQL database.
-  - Build methods: Docker, binaries, source
-  - Resources
-  - https://github.com/input-output-hk/cardano-db-sync 
-- Cardano Ledger Specs
-  - Description: This repository contains the formal specifications, executable models, and implementations of the Cardano Ledger.
+  - Build methods: Docker, binaries, source 
+- [Cardano Ledger Specs](https://github.com/input-output-hk/cardano-ledger-specs)
+  - This repository contains the formal specifications, executable models, and implementations of the Cardano Ledger.
 - Specification Papers
   - [Plutus integration formal specification: the formal mathematical specification of the addition of Plutus scripts to the ledger rules, following on from the multi-asset formal specification](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/specs.alonzo-ledger/latest/download-by-type/doc-pdf/alonzo-changes).
   - [Multi-asset formal specification: the formal mathematical specification of the addition of multi-assets to the Shelley era ledger rules](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/specs.shelley-ma/latest/download-by-type/doc-pdf/shelley-ma).
@@ -98,14 +98,10 @@ This repository tries to provide resources for the entire Cardano developer ecos
   - RTView enables developers, testers, and general users who are running nodes that are connected to the real cluster to see what is going on and how the nodes are performing. It gives visibility on: how much memory and CPU is being used, the state of the blockchain, how many blocks have been forged by a particular node, how many transactions have been processed, and so on.
 
 ### Cardano Blockchain Explorer
-  - https://explorer.cardano.org/en.html 
-  - https://adastat.net/
-  - https://blockchair.com/cardano
-  - https://cardanoscan.io/
-
-### NixOS
-  - Official Nix Docker image
-  - docker pull nixos/nix
+  - [Official IOHK explorer](https://explorer.cardano.org/en.html)
+  - [Adastat](https://adastat.net/)
+  - [Blockchair](https://blockchair.com/cardano)
+  - [Cardanoscan](https://cardanoscan.io/)
 
 ### IOHK Research Papers
 - Delegation and Incentive Specifications
@@ -125,8 +121,8 @@ https://cardano.org/stake-pool-operation/
 
 ### Miscellaneous
   - Haskell
-    - http://learnyouahaskell.com/chapters
-    - https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm 
+    - [Learn You a Haskell](http://learnyouahaskell.com/chapters)
+    - [Haskell and Cyrpto Mongolia 2020](https://www.youtube.com/playlist?list=PLJ3w5xyG4JWmBVIigNBytJhvSSfZZzfTm)
   - NixOS
     - [Official Nix Docker image](https://hub.docker.com/r/nixos/nix/)
       - docker pull nixos/nix
@@ -150,11 +146,11 @@ https://cardano.org/stake-pool-operation/
         - [UTXOma: UTXO with Multi-Asset Support](https://hydra.iohk.io/job/Cardano/plutus/linux.docs.papers.utxoma/latest/download-by-type/doc-pdf/utxoma)
         - [Native Custom Tokens in the Extended UTXO Model](https://hydra.iohk.io/job/Cardano/plutus/linux.docs.papers.eutxoma/latest/download-by-type/doc-pdf/eutxoma)
   - CIPs (Cardano Improvement Proposals)
-    - https://cips.cardano.org/ 
-    - https://github.com/cardano-foundation/CIPs 
+    - [Cardano CIPs](https://cips.cardano.org/) 
+    - [Cardano Foundation CIP Github](https://github.com/cardano-foundation/CIPs)
   - Project Catalyst
-    - https://cardanocataly.st/ 
-    - https://forum.cardano.org/t/user-guide-ways-to-participate-in-project-catalyst/49405 
-    - https://iohk.io/en/blog/posts/2021/02/12/our-million-dollar-baby-project-catalyst/ 
+    - [Cardano Catalyst Project](https://cardanocataly.st/)
+    - [CF Catalyst Guide](https://forum.cardano.org/t/user-guide-ways-to-participate-in-project-catalyst/49405)
+    -[IOHK Catalyst Blog Post](https://iohk.io/en/blog/posts/2021/02/12/our-million-dollar-baby-project-catalyst/)
 
 ### Ecosystem Overview
