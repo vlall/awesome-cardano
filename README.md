@@ -41,8 +41,8 @@ This is meant to provide resources for the entire Cardano developer ecosystem. T
   - Resources:
     - https://github.com/emurgo/yoroi-ergo-backend 
     - https://github.com/Emurgo/yoroi-frontend 
--  [Adalite](https://adalite.io/)
-  - An open-source client-side interface for direct interaction with the Cardano blockchain.
+  - [Adalite](https://adalite.io/)
+    - An open-source client-side interface for direct interaction with the Cardano blockchain.
 
 ### Developer Components
 - [Cardano GraphQL](https://github.com/input-output-hk/cardano-graphql )
