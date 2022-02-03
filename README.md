@@ -90,11 +90,11 @@ This is meant to provide resources for the entire Cardano developer ecosystem. T
   - [Explanation of the small-step-semantics framework: a guide to the notation and style used by our ledger rules](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/semanticsSpec/latest/download-by-type/doc-pdf/small-step-semantics).
   - Resources
     - https://github.com/input-output-hk/cardano-ledger-specs#cardano-ledger 
-- (Cardano SMASH)[https://docs.cardano.org/projects/smash/en/latest/]
+- [Cardano SMASH](https://docs.cardano.org/projects/smash/en/latest/)
   - The purpose of SMASH is to aggregate common metadata about stakepools that are registered on the Cardano blockchain, including the name of the stakepool, its “ticker” name etc. This metadata can be curated and provided as a service to delegators, stake pool operators, exchanges etc., enabling independent validation and/or disambiguation of stakepool “ticker” names, for example.
   - Resources
-    - (Cardano SMASH Docs)[https://docs.cardano.org/projects/smash/en/latest/]
-- (Cardano RTView)[https://docs.cardano.org/en/latest/rt-view/rt-view.html]
+    - [Cardano SMASH Docs](https://docs.cardano.org/projects/smash/en/latest/)
+- [Cardano RTView](https://docs.cardano.org/en/latest/rt-view/rt-view.html)
   - RTView enables developers, testers, and general users who are running nodes that are connected to the real cluster to see what is going on and how the nodes are performing. It gives visibility on: how much memory and CPU is being used, the state of the blockchain, how many blocks have been forged by a particular node, how many transactions have been processed, and so on.
 
 ### Cardano Blockchain Explorer
